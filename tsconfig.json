@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "sourceMap": true,
+    "module": "commonjs",
+    "outDir": "built",
+    "experimentalDecorators": true,
+    "types": ["node", "webdriverio", "@wdio/mocha-framework"]
+  },
+  "include": ["specs", "src", "lib"]
+}
