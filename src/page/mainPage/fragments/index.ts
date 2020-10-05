@@ -1,1 +1,1 @@
-export * from './list.fragment';
+export { ListFragment } from './list.fragment';
