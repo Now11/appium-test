@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:android": "./node_modules/.bin/wdio ./src/config/android/index.config.js",
-    "sample_app": "./node_modules/.bin/wdio ./src/config/android/android.config.js & rm -rf bugreport*.zip",
+    "test:android": "./node_modules/.bin/wdio ./src/config/android/android.config.js & rm -rf bugreport*.zip",
     "allure": "./node_modules/.bin/allure generate & allure open"
   },
   "license": "ISC",
