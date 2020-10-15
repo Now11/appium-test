@@ -1,4 +1,4 @@
-# appium-starter
+# appium-test
 
 1) `npm install`  
 2) Launch emulator
